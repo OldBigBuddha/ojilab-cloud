@@ -1,2 +1,5 @@
 # ojilab-cloud
-ojilab.cloud でホストするページのソースコード
+
+[![MIT](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
+
+ojilab.cloud でホストするページのソースコード。
