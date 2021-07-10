@@ -5,6 +5,11 @@ services:
     build:
       context: .
     container_name: ojilab
+    environment:
+      - VIRTUAL_HOST=ojilab.cloud
     restart: always
-    labels:
-      - traefik.http.routers.ojilab.rule=Host(`ojilab.cloud`)
+
+networks:
+  default:
+    external:
+      name: proxy
