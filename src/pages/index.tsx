@@ -3,7 +3,7 @@ import Link from "next/link"
 import Layout from "../components/Layout"
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <Layout title="OJILab Cloud">
     <Heading>Welcome OJILab Cloud!</Heading>
 
     <ChakraLink as={Link} href="/about">About</ChakraLink>
