@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  ojilab:
+    build:
+      context: .
+    container_name: ojilab
+    restart: always
+    labels:
+      - traefik.http.routers.ojilab.rule=Host(`ojilab.cloud`)
